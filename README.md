@@ -30,12 +30,12 @@ Bill of Materials (BOM) for [Java(TM) EE 6 Web Specification APIs](https://www.o
 * [GitHub](https://github.com/aoindustries/javaee-web-api-bom)
 
 ## Managed Dependencies
-* [javax:javaee-web-api:6.0](https://search.maven.org/artifact/javax/javaee-web-api/6.0/jar)
-* [javax.servlet:javax.servlet-api:3.0.1](https://search.maven.org/artifact/javax.servlet/javax.servlet-api/3.0.1/jar)
-* [javax.servlet.jsp:javax.servlet.jsp-api:2.2.1](https://search.maven.org/artifact/javax.servlet.jsp/javax.servlet.jsp-api/2.2.1/jar)
-* [javax.el:javax.el-api:2.2.5](https://search.maven.org/artifact/javax.el/javax.el-api/2.2.5/jar)
-* [javax.servlet:jstl:1.2](https://search.maven.org/artifact/javax.servlet/jstl/1.2/jar)
-* [org.glassfish.web:jstl-impl:1.2](https://search.maven.org/artifact/org.glassfish.web/jstl-impl/1.2/jar)
+* [javax:**javaee-web-api**:6.0](https://search.maven.org/artifact/javax/javaee-web-api/6.0/jar)
+* [javax.servlet:**javax.servlet-api**:3.0.1](https://search.maven.org/artifact/javax.servlet/javax.servlet-api/3.0.1/jar)
+* [javax.servlet.jsp:**javax.servlet.jsp-api**:2.2.1](https://search.maven.org/artifact/javax.servlet.jsp/javax.servlet.jsp-api/2.2.1/jar)
+* [javax.el:**javax.el-api**:2.2.5](https://search.maven.org/artifact/javax.el/javax.el-api/2.2.5/jar)
+* [javax.servlet:**jstl**:1.2](https://search.maven.org/artifact/javax.servlet/jstl/1.2/jar)
+* [org.glassfish.web:**jstl-impl**:1.2](https://search.maven.org/artifact/org.glassfish.web/jstl-impl/1.2/jar)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
