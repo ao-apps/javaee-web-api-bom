@@ -60,9 +60,9 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 		<section:section label="Managed Dependencies">
 			<ul>
 				<li><ao:a href="https://search.maven.org/artifact/javax/javaee-web-api/6.0/jar">javax:<strong>javaee-web-api</strong>:6.0</ao:a></li>
+				<li><ao:a href="https://search.maven.org/artifact/javax.el/javax.el-api/2.2.5/jar">javax.el:<strong>javax.el-api</strong>:2.2.5</ao:a></li>
 				<li><ao:a href="https://search.maven.org/artifact/javax.servlet/javax.servlet-api/3.0.1/jar">javax.servlet:<strong>javax.servlet-api</strong>:3.0.1</ao:a></li>
 				<li><ao:a href="https://search.maven.org/artifact/javax.servlet.jsp/javax.servlet.jsp-api/2.2.1/jar">javax.servlet.jsp:<strong>javax.servlet.jsp-api</strong>:2.2.1</ao:a></li>
-				<li><ao:a href="https://search.maven.org/artifact/javax.el/javax.el-api/2.2.5/jar">javax.el:<strong>javax.el-api</strong>:2.2.5</ao:a></li>
 				<li><ao:a href="https://search.maven.org/artifact/javax.servlet/jstl/1.2/jar">javax.servlet:<strong>jstl</strong>:1.2</ao:a></li>
 				<li><ao:a href="https://search.maven.org/artifact/org.glassfish.web/jstl-impl/1.2/jar">org.glassfish.web:<strong>jstl-impl</strong>:1.2</ao:a></li>
 			</ul>
