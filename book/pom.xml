@@ -59,6 +59,7 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 
 	<dependencyManagement>
 		<dependencies>
+			<!-- Java EE -->
 			<dependency>
 				<groupId>com.aoindustries</groupId><artifactId>javaee-web-api-bom</artifactId><version>6.0.0-SNAPSHOT</version>
 				<type>pom</type>
