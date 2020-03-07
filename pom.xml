@@ -29,7 +29,7 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../../ao-oss-parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.aoindustries</groupId><artifactId>javaee-web-api-bom</artifactId><version>6.0.0-POST-SNAPSHOT</version>
+	<groupId>com.aoindustries</groupId><artifactId>javaee-web-api-bom</artifactId><version>6.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Java EE Web Profile BOM</name>
@@ -39,9 +39,9 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 
 	<scm>
 		<!-- Can't inherit due to multi-module -->
-		<connection>scm:git:git://github.com/aoindustries/${project.artifactId}.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/${project.artifactId}.git</developerConnection>
-		<url>https://github.com/aoindustries/${project.artifactId}</url>
+		<connection>scm:git:git://github.com/aoindustries/javaee-web-api-bom.git</connection>
+		<developerConnection>scm:git:git@github.com:aoindustries/javaee-web-api-bom.git</developerConnection>
+		<url>https://github.com/aoindustries/javaee-web-api-bom</url>
 		<tag>HEAD</tag>
 	</scm>
 
