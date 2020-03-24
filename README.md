@@ -26,7 +26,7 @@ Bill of Materials (BOM) for [Java(TM) EE 6 Web Specification APIs](https://www.o
 ## Project Links
 * [Project Home](https://aoindustries.com/javaee-web-api-bom/)
 * [Changelog](https://aoindustries.com/javaee-web-api-bom/changelog)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.aoindustries%22%20AND%20a:%22javaee-web-api-bom%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.aoindustries/javaee-web-api-bom)
 * [GitHub](https://github.com/aoindustries/javaee-web-api-bom)
 
 ## Managed Dependencies
