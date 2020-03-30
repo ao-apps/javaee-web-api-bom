@@ -26,7 +26,7 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 
 	<parent>
 		<groupId>com.aoindustries</groupId><artifactId>ao-oss-parent</artifactId><version>1.7.2-POST-SNAPSHOT</version>
-		<relativePath>../../ao-oss-parent/pom.xml</relativePath>
+		<relativePath>../ao-oss-parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.aoindustries</groupId><artifactId>javaee-web-api-bom</artifactId><version>6.0.1-POST-SNAPSHOT</version>
