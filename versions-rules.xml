@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+javaee-web-api-bom - Bill of Materials (BOM) for Java(TM) EE 6 Web Specification APIs.
+Copyright (C) 2020  AO Industries, Inc.
+    support@aoindustries.com
+    7262 Bull Pen Cir
+    Mobile, AL 36695
+
+This file is part of javaee-web-api-bom.
+
+javaee-web-api-bom is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+javaee-web-api-bom is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
+-->
+<ruleset
+	comparisonMethod="maven"
+	xmlns="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0 https://www.mojohaus.org/versions-maven-plugin/xsd/rule-2.0.0.xsd"
+>
+	<rules>
+		<!-- Stay on Java EE Web API 6 -->
+		<rule groupId="javax" artifactId="javaee-web-api" comparisonMethod="maven">
+			<ignoreVersions>
+				<ignoreVersion type="regex">.*</ignoreVersion>
+			</ignoreVersions>
+		</rule>
+		<rule groupId="javax.el" artifactId="javax.el-api" comparisonMethod="maven">
+			<ignoreVersions>
+				<ignoreVersion type="regex">.*</ignoreVersion>
+			</ignoreVersions>
+		</rule>
+		<rule groupId="javax.servlet" artifactId="javax.servlet-api" comparisonMethod="maven">
+			<ignoreVersions>
+				<ignoreVersion type="regex">.*</ignoreVersion>
+			</ignoreVersions>
+		</rule>
+		<rule groupId="javax.servlet.jsp" artifactId="javax.servlet.jsp-api" comparisonMethod="maven">
+			<ignoreVersions>
+				<ignoreVersion type="regex">.*</ignoreVersion>
+			</ignoreVersions>
+		</rule>
+		<rule groupId="javax.servlet" artifactId="jstl" comparisonMethod="maven">
+			<ignoreVersions>
+				<ignoreVersion type="regex">.*</ignoreVersion>
+			</ignoreVersions>
+		</rule>
+		<rule groupId="org.glassfish.web" artifactId="jstl-impl" comparisonMethod="maven">
+			<ignoreVersions>
+				<ignoreVersion type="regex">.*</ignoreVersion>
+			</ignoreVersions>
+		</rule>
+	</rules>
+</ruleset>
