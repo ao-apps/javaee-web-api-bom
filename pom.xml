@@ -87,10 +87,12 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 			<dependency>
 				<!-- Note: This version number is also in README.md and index.jspx -->
 				<groupId>javax.servlet</groupId><artifactId>jstl</artifactId><version>1.2</version>
+				<!-- TODO: <scope>runtime</scope> here, too? It is most commonly used runtime only, but sometimes needs to be on the classpath. -->
 			</dependency>
 			<dependency>
 				<!-- Note: This version number is also in README.md and index.jspx -->
 				<groupId>org.glassfish.web</groupId><artifactId>jstl-impl</artifactId><version>1.2</version>
+				<!-- TODO: <scope>runtime</scope> here -->
 				<exclusions>
 					<exclusion>
 						<groupId>javax.servlet</groupId><artifactId>servlet-api</artifactId>
