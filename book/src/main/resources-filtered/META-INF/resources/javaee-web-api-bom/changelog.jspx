@@ -81,7 +81,7 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 		>
 			<ul>
 				<li>
-					New <ao:a href="http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Importing_Dependencies">Bill of Materials (BOM)</ao:a>
+					New <ao:a href="https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Importing_Dependencies">Bill of Materials (BOM)</ao:a>
 					to streamline transitive dependency management of
 					<ao:a rel="nofollow" href="https://www.oracle.com/technetwork/java/javaee/documentation/avaee6sdku1-relnotes-326908.html">Java(TM) EE 6 Web Specification APIs</ao:a>.
 				</li>
