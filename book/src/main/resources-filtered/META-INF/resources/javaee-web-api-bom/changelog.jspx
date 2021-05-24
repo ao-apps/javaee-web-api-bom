@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-javaee-web-api-bom - Bill of Materials (BOM) for Java(TM) EE 6 Web Specification APIs.
-Copyright (C) 2019, 2020  AO Industries, Inc.
+javaee-web-api-bom - Bill of Materials (BOM) for Java™ EE Web Profile.
+Copyright (C) 2019, 2020, 2021  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -36,8 +36,8 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 		title="@{documented.name} Changelog"
 		shortTitle="Changelog"
 		tocLevels="1"
-		datePublished="2019-06-17T08:42:49-0500"
-		dateModified="2020-03-23T20:53:34-05:00"
+		datePublished="2019-06-17T08:42:49-05:00"
+		dateModified="2021-05-22T13:07:02-05:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -46,7 +46,11 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{project.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Updated to <ao:a rel="nofollow" href="https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html#javaee7">Java™ EE 7 Web Profile</ao:a> (Servlet 3.1, JSP 2.3, EL 3.0, and JSTL 1.2).</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
@@ -68,7 +72,7 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 		<changelog:release
 			projectName="@{documented.name}"
 			version="6.0.0"
-			datePublished="2019-06-19T04:00:32-0500"
+			datePublished="2019-06-19T04:00:32-05:00"
 			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
 			scmUrl="@{project.scm.url}"
@@ -77,7 +81,7 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 				<li>
 					New <ao:a href="https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Importing_Dependencies">Bill of Materials (BOM)</ao:a>
 					to streamline transitive dependency management of
-					<ao:a rel="nofollow" href="https://www.oracle.com/technetwork/java/javaee/documentation/avaee6sdku1-relnotes-326908.html">Java(TM) EE 6 Web Specification APIs</ao:a>.
+					<ao:a rel="nofollow" href="https://www.oracle.com/technetwork/java/javaee/documentation/avaee6sdku1-relnotes-326908.html">Java™ EE 6 Web Profile</ao:a> (Servlet 3.0, JSP 2.2, EL 2.2, and JSTL 1.2).
 				</li>
 			</ul>
 		</changelog:release>

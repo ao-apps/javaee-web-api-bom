@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-javaee-web-api-bom - Bill of Materials (BOM) for Java(TM) EE 6 Web Specification APIs.
+javaee-web-api-bom - Bill of Materials (BOM) for Java™ EE Web Profile.
 Copyright (C) 2019, 2020, 2021  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
@@ -29,12 +29,12 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../ao-oss-parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.aoindustries</groupId><artifactId>javaee-web-api-bom</artifactId><version>6.0.1-POST-SNAPSHOT</version>
+	<groupId>com.aoindustries</groupId><artifactId>javaee-web-api-bom</artifactId><version>7.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>Java EE Web Profile BOM</name>
+	<name>Java™ EE Web Profile BOM</name>
 	<url>https://aoindustries.com/javaee-web-api-bom/</url>
-	<description>Bill of Materials (BOM) for Java(TM) EE 6 Web Specification APIs.</description>
+	<description>Bill of Materials (BOM) for Java™ EE Web Profile.</description>
 	<inceptionYear>2019</inceptionYear>
 
 	<licenses>
@@ -76,43 +76,95 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 		<dependencies>
 			<dependency>
 				<!-- Note: This version number is also in README.md and index.jspx -->
-				<groupId>javax</groupId><artifactId>javaee-web-api</artifactId><version>6.0</version>
+				<groupId>javax</groupId><artifactId>javaee-web-api</artifactId><version>7.0</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<!-- Note: This version number is also in README.md and index.jspx -->
-				<groupId>javax.el</groupId><artifactId>javax.el-api</artifactId><version>2.2.5</version>
+				<groupId>javax.el</groupId><artifactId>javax.el-api</artifactId><version>3.0.0</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<!-- Note: This version number is also in README.md and index.jspx -->
-				<groupId>javax.servlet</groupId><artifactId>javax.servlet-api</artifactId><version>3.0.1</version>
+				<groupId>javax.servlet</groupId><artifactId>javax.servlet-api</artifactId><version>3.1.0</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<!-- Note: This version number is also in README.md and index.jspx -->
-				<groupId>javax.servlet.jsp</groupId><artifactId>javax.servlet.jsp-api</artifactId><version>2.2.1</version>
+				<groupId>javax.servlet.jsp</groupId><artifactId>javax.servlet.jsp-api</artifactId><version>2.3.3</version>
 				<scope>provided</scope>
 			</dependency>
-			<!-- JSTL: See http://stackoverflow.com/questions/6094329/tomcat-7-and-jstl -->
 			<dependency>
 				<!-- Note: This version number is also in README.md and index.jspx -->
-				<groupId>javax.servlet</groupId><artifactId>jstl</artifactId><version>1.2</version>
-				<!-- TODO: <scope>runtime</scope> here, too? It is most commonly used runtime only, but sometimes needs to be on the classpath. -->
+				<groupId>javax.websocket</groupId><artifactId>javax.websocket-api</artifactId><version>1.1</version>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<!-- Note: This version number is also in README.md and index.jspx -->
-				<groupId>org.glassfish.web</groupId><artifactId>jstl-impl</artifactId><version>1.2</version>
-				<!-- TODO: <scope>runtime</scope> here -->
+				<groupId>javax.websocket</groupId><artifactId>javax.websocket-client-api</artifactId><version>1.1</version>
+				<scope>provided</scope>
+			</dependency>
+			<!-- JSTL: See https://stackoverflow.com/questions/64597286/where-can-i-find-jstl-version-1-2-3-or-newer -->
+			<dependency>
+				<!-- Note: This version number is also in README.md and index.jspx -->
+				<groupId>org.apache.taglibs</groupId><artifactId>taglibs-standard-compat</artifactId><version>1.2.5</version>
 				<exclusions>
 					<exclusion>
-						<groupId>javax.servlet</groupId><artifactId>servlet-api</artifactId>
+						<groupId>javax.el</groupId><artifactId>el-api</artifactId>
 					</exclusion>
 					<exclusion>
 						<groupId>javax.servlet.jsp</groupId><artifactId>jsp-api</artifactId>
 					</exclusion>
 					<exclusion>
-						<groupId>javax.servlet.jsp.jstl</groupId><artifactId>jstl-api</artifactId>
+						<groupId>javax.servlet</groupId><artifactId>servlet-api</artifactId>
+					</exclusion>
+				</exclusions>
+				<scope>runtime</scope>
+			</dependency>
+			<dependency>
+				<!-- Note: This version number is also in README.md and index.jspx -->
+				<groupId>org.apache.taglibs</groupId><artifactId>taglibs-standard-impl</artifactId><version>1.2.5</version>
+				<exclusions>
+					<exclusion>
+						<groupId>javax.el</groupId><artifactId>el-api</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>javax.servlet.jsp</groupId><artifactId>jsp-api</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>javax.servlet</groupId><artifactId>servlet-api</artifactId>
+					</exclusion>
+				</exclusions>
+				<scope>runtime</scope>
+			</dependency>
+			<dependency>
+				<!-- Note: This version number is also in README.md and index.jspx -->
+				<groupId>org.apache.taglibs</groupId><artifactId>taglibs-standard-jstlel</artifactId><version>1.2.5</version>
+				<exclusions>
+					<exclusion>
+						<groupId>javax.el</groupId><artifactId>el-api</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>javax.servlet.jsp</groupId><artifactId>jsp-api</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>javax.servlet</groupId><artifactId>servlet-api</artifactId>
+					</exclusion>
+				</exclusions>
+				<scope>runtime</scope>
+			</dependency>
+			<dependency>
+				<!-- Note: This version number is also in README.md and index.jspx -->
+				<groupId>org.apache.taglibs</groupId><artifactId>taglibs-standard-spec</artifactId><version>1.2.5</version>
+				<exclusions>
+					<exclusion>
+						<groupId>javax.el</groupId><artifactId>el-api</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>javax.servlet.jsp</groupId><artifactId>jsp-api</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>javax.servlet</groupId><artifactId>servlet-api</artifactId>
 					</exclusion>
 				</exclusions>
 			</dependency>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-javaee-web-api-bom - Bill of Materials (BOM) for Java(TM) EE 6 Web Specification APIs.
-Copyright (C) 2019, 2020  AO Industries, Inc.
+javaee-web-api-bom - Bill of Materials (BOM) for Java™ EE Web Profile.
+Copyright (C) 2019, 2020, 2021  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -33,8 +33,8 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 	<core:page
 		title="@{documented.name}"
 		description="@{documented.description}"
-		datePublished="2019-06-17T08:36:13-0500"
-		dateModified="2020-03-24T14:01:33-05:00"
+		datePublished="2019-06-17T08:36:13-05:00"
+		dateModified="2021-05-22T13:05:54-05:00"
 	>
 		<core:child page="changelog.jspx" />
 		<header>
@@ -49,7 +49,7 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 			/>
 		</header>
 		<p>
-			Bill of Materials (BOM) for <ao:a rel="nofollow" href="https://www.oracle.com/technetwork/java/javaee/documentation/avaee6sdku1-relnotes-326908.html">Java(TM) EE 6 Web Specification APIs</ao:a>.
+			Bill of Materials (BOM) for <ao:a rel="nofollow" href="https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html">Java™ EE Web Profile</ao:a>.
 		</p>
 		<section:nav label="Project Links">
 			<ul>
@@ -61,12 +61,16 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 		</section:nav>
 		<section:section label="Managed Dependencies">
 			<ul>
-				<li><ao:a href="https://search.maven.org/artifact/javax/javaee-web-api/6.0/jar">javax:<strong>javaee-web-api</strong>:6.0</ao:a></li>
-				<li><ao:a href="https://search.maven.org/artifact/javax.el/javax.el-api/2.2.5/jar">javax.el:<strong>javax.el-api</strong>:2.2.5</ao:a></li>
-				<li><ao:a href="https://search.maven.org/artifact/javax.servlet/javax.servlet-api/3.0.1/jar">javax.servlet:<strong>javax.servlet-api</strong>:3.0.1</ao:a></li>
-				<li><ao:a href="https://search.maven.org/artifact/javax.servlet.jsp/javax.servlet.jsp-api/2.2.1/jar">javax.servlet.jsp:<strong>javax.servlet.jsp-api</strong>:2.2.1</ao:a></li>
-				<li><ao:a href="https://search.maven.org/artifact/javax.servlet/jstl/1.2/jar">javax.servlet:<strong>jstl</strong>:1.2</ao:a></li>
-				<li><ao:a href="https://search.maven.org/artifact/org.glassfish.web/jstl-impl/1.2/jar">org.glassfish.web:<strong>jstl-impl</strong>:1.2</ao:a></li>
+				<li><ao:a href="https://search.maven.org/artifact/javax/javaee-web-api/7.0/jar">javax:<strong>javaee-web-api</strong>:7.0</ao:a></li>
+				<li><ao:a href="https://search.maven.org/artifact/javax.el/javax.el-api/3.0.0/jar">javax.el:<strong>javax.el-api</strong>:3.0.0</ao:a></li>
+				<li><ao:a href="https://search.maven.org/artifact/javax.servlet/javax.servlet-api/3.1.0/jar">javax.servlet:<strong>javax.servlet-api</strong>:3.1.0</ao:a></li>
+				<li><ao:a href="https://search.maven.org/artifact/javax.servlet.jsp/javax.servlet.jsp-api/2.3.3/jar">javax.servlet.jsp:<strong>javax.servlet.jsp-api</strong>:2.3.3</ao:a></li>
+				<li><ao:a href="https://search.maven.org/artifact/javax.websocket/javax.websocket-api/1.1/jar">javax.websocket:<strong>javax.websocket-api</strong>:1.1</ao:a></li>
+				<li><ao:a href="https://search.maven.org/artifact/javax.websocket/javax.websocket-client-api/1.1/jar">javax.websocket:<strong>javax.websocket-client-api</strong>:1.1</ao:a></li>
+				<li><ao:a href="https://search.maven.org/artifact/org.apache.taglibs/taglibs-standard-compat/1.2.5/jar">org.apache.taglibs:<strong>taglibs-standard-compat</strong>:1.2.5</ao:a></li>
+				<li><ao:a href="https://search.maven.org/artifact/org.apache.taglibs/taglibs-standard-impl/1.2.5/jar">org.apache.taglibs:<strong>taglibs-standard-impl</strong>:1.2.5</ao:a></li>
+				<li><ao:a href="https://search.maven.org/artifact/org.apache.taglibs/taglibs-standard-jstlel/1.2.5/jar">org.apache.taglibs:<strong>taglibs-standard-jstlel</strong>:1.2.5</ao:a></li>
+				<li><ao:a href="https://search.maven.org/artifact/org.apache.taglibs/taglibs-standard-spec/1.2.5/jar">org.apache.taglibs:<strong>taglibs-standard-spec</strong>:1.2.5</ao:a></li>
 			</ul>
 		</section:section>
 	</core:page>

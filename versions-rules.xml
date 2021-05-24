@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-javaee-web-api-bom - Bill of Materials (BOM) for Java(TM) EE 6 Web Specification APIs.
-Copyright (C) 2020  AO Industries, Inc.
+javaee-web-api-bom - Bill of Materials (BOM) for Java™ EE Web Profile.
+Copyright (C) 2020, 2021  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -28,35 +28,40 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 	xsi:schemaLocation="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0 https://www.mojohaus.org/versions-maven-plugin/xsd/rule-2.0.0.xsd"
 >
 	<rules>
-		<!-- Stay on Java EE Web API 6 -->
+		<!-- Stay on Java™ EE Web Profile 7, see https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html#javaee7 -->
 		<rule groupId="javax" artifactId="javaee-web-api" comparisonMethod="maven">
 			<ignoreVersions>
-				<ignoreVersion type="regex">.*</ignoreVersion>
+				<ignoreVersion type="regex">.*-b[0-9]+</ignoreVersion>
+				<ignoreVersion type="regex">.*-RC[0-9]+</ignoreVersion>
+				<ignoreVersion type="regex">8\.[0-9]+.*</ignoreVersion>
 			</ignoreVersions>
 		</rule>
 		<rule groupId="javax.el" artifactId="javax.el-api" comparisonMethod="maven">
 			<ignoreVersions>
-				<ignoreVersion type="regex">.*</ignoreVersion>
+				<ignoreVersion type="regex">.*-b[0-9]+</ignoreVersion>
 			</ignoreVersions>
 		</rule>
 		<rule groupId="javax.servlet" artifactId="javax.servlet-api" comparisonMethod="maven">
 			<ignoreVersions>
-				<ignoreVersion type="regex">.*</ignoreVersion>
+				<ignoreVersion type="regex">.*-b[0-9]+</ignoreVersion>
+				<ignoreVersion type="regex">4\.[0-9]+.*</ignoreVersion>
 			</ignoreVersions>
 		</rule>
 		<rule groupId="javax.servlet.jsp" artifactId="javax.servlet.jsp-api" comparisonMethod="maven">
 			<ignoreVersions>
-				<ignoreVersion type="regex">.*</ignoreVersion>
+				<ignoreVersion type="regex">.*-b[0-9]+</ignoreVersion>
 			</ignoreVersions>
 		</rule>
-		<rule groupId="javax.servlet" artifactId="jstl" comparisonMethod="maven">
+		<rule groupId="javax.websocket" artifactId="javax.websocket-api" comparisonMethod="maven">
 			<ignoreVersions>
-				<ignoreVersion type="regex">.*</ignoreVersion>
+				<ignoreVersion type="regex">.*-b[0-9]+</ignoreVersion>
+				<ignoreVersion type="regex">.*-rc[0-9]+</ignoreVersion>
 			</ignoreVersions>
 		</rule>
-		<rule groupId="org.glassfish.web" artifactId="jstl-impl" comparisonMethod="maven">
+		<rule groupId="javax.websocket" artifactId="javax.websocket-client-api" comparisonMethod="maven">
 			<ignoreVersions>
-				<ignoreVersion type="regex">.*</ignoreVersion>
+				<ignoreVersion type="regex">.*-b[0-9]+</ignoreVersion>
+				<ignoreVersion type="regex">.*-rc[0-9]+</ignoreVersion>
 			</ignoreVersions>
 		</rule>
 	</rules>

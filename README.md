@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [Java EE Web Profile BOM](https://github.com/aoindustries/javaee-web-api-bom)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [Java™ EE Web Profile BOM](https://github.com/aoindustries/javaee-web-api-bom)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://aoindustries.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -10,8 +10,8 @@
 		<img src="https://aoindustries.com/ao-badges/packaging-active.svg" alt="packaging: active" />
 	</a>
 	<br />
-	<a href="https://docs.oracle.com/javaee/6/api/">
-		<img src="https://semanticcms.com/ao-badges/javaee-6.svg" alt="java ee: &gt;= 6" />
+	<a href="https://docs.oracle.com/javaee/7/api/">
+		<img src="https://semanticcms.com/ao-badges/javaee-7.svg" alt="java ee: &gt;= 7" />
 	</a>
 	<a href="http://semver.org/spec/v2.0.0.html">
 		<img src="https://aoindustries.com/ao-badges/semver-2.0.0.svg" alt="semantic versioning: 2.0.0" />
@@ -21,7 +21,7 @@
 	</a>
 </p>
 
-Bill of Materials (BOM) for [Java(TM) EE 6 Web Specification APIs](https://www.oracle.com/technetwork/java/javaee/documentation/avaee6sdku1-relnotes-326908.html).
+Bill of Materials (BOM) for [Java™ EE Web Profile](https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html).
 
 ## Project Links
 * [Project Home](https://aoindustries.com/javaee-web-api-bom/)
@@ -30,12 +30,16 @@ Bill of Materials (BOM) for [Java(TM) EE 6 Web Specification APIs](https://www.o
 * [GitHub](https://github.com/aoindustries/javaee-web-api-bom)
 
 ## Managed Dependencies
-* [javax:**javaee-web-api**:6.0](https://search.maven.org/artifact/javax/javaee-web-api/6.0/jar)
-* [javax.el:**javax.el-api**:2.2.5](https://search.maven.org/artifact/javax.el/javax.el-api/2.2.5/jar)
-* [javax.servlet:**javax.servlet-api**:3.0.1](https://search.maven.org/artifact/javax.servlet/javax.servlet-api/3.0.1/jar)
-* [javax.servlet.jsp:**javax.servlet.jsp-api**:2.2.1](https://search.maven.org/artifact/javax.servlet.jsp/javax.servlet.jsp-api/2.2.1/jar)
-* [javax.servlet:**jstl**:1.2](https://search.maven.org/artifact/javax.servlet/jstl/1.2/jar)
-* [org.glassfish.web:**jstl-impl**:1.2](https://search.maven.org/artifact/org.glassfish.web/jstl-impl/1.2/jar)
+* [javax:**javaee-web-api**:7.0](https://search.maven.org/artifact/javax/javaee-web-api/7.0/jar)
+* [javax.el:**javax.el-api**:3.0.0](https://search.maven.org/artifact/javax.el/javax.el-api/3.0.0/jar)
+* [javax.servlet:**javax.servlet-api**:3.1.0](https://search.maven.org/artifact/javax.servlet/javax.servlet-api/3.1.0/jar)
+* [javax.servlet.jsp:**javax.servlet.jsp-api**:2.3.3](https://search.maven.org/artifact/javax.servlet.jsp/javax.servlet.jsp-api/2.3.3/jar)
+* [javax.websocket:**javax.websocket-api**:1.1](https://search.maven.org/artifact/javax.websocket/javax.websocket-api/1.1/jar)
+* [javax.websocket:**javax.websocket-client-api**:1.1](https://search.maven.org/artifact/javax.websocket/javax.websocket-client-api/1.1/jar)
+* [org.apache.taglibs:**taglibs-standard-compat**:1.2.5](https://search.maven.org/artifact/org.apache.taglibs/taglibs-standard-compat/1.2.5/jar)
+* [org.apache.taglibs:**taglibs-standard-impl**:1.2.5](https://search.maven.org/artifact/org.apache.taglibs/taglibs-standard-impl/1.2.5/jar)
+* [org.apache.taglibs:**taglibs-standard-jstlel**:1.2.5](https://search.maven.org/artifact/org.apache.taglibs/taglibs-standard-jstlel/1.2.5/jar)
+* [org.apache.taglibs:**taglibs-standard-spec**:1.2.5](https://search.maven.org/artifact/org.apache.taglibs/taglibs-standard-spec/1.2.5/jar)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
