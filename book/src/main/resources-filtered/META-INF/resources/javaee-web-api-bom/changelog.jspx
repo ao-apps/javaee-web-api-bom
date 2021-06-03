@@ -22,7 +22,7 @@ You should have received a copy of the GNU Lesser General Public License
 along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 -->
 <jsp:root
-	xmlns:ao="https://aoindustries.com/ao-taglib/"
+	xmlns:ao="https://oss.aoapps.com/taglib/"
 	xmlns:c="http://java.sun.com/jsp/jstl/core"
 	xmlns:changelog="https://semanticcms.com/changelog/taglib/"
 	xmlns:core="https://semanticcms.com/core/taglib/"
@@ -37,7 +37,7 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-06-17T08:42:49-05:00"
-		dateModified="2021-05-26T06:36:49-05:00"
+		dateModified="2021-05-31T01:04:26-05:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -45,11 +45,13 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 				version="@{project.version}"
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
+				repository="https://s01.oss.sonatype.org/content/repositories/snapshots/"
 				scmUrl="@{project.scm.url}"
 			>
 				<ul>
 					<li>Updated to <ao:a rel="nofollow" href="https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html#javaee7">Java™ EE 7 Web Profile</ao:a> (Servlet 3.1, JSP 2.3, EL 3.0, and JSTL 1.2).</li>
 					<li>Minimum Java version changed from 1.8 to 1.7.</li>
+					<li>Maven artifact relocated from <code>com.aoindustries:javaee-web-api-bom</code> to <code>com.aoapps:javaee-web-api-bom</code>.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
@@ -58,7 +60,7 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="6.0.1"
 			datePublished="2020-03-23T20:53:34-05:00"
-			groupId="@{project.groupId}"
+			groupId="com.aoindustries"
 			artifactId="@{documented.artifactId}"
 			scmUrl="@{project.scm.url}"
 		>
@@ -74,7 +76,7 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="6.0.0"
 			datePublished="2019-06-19T04:00:32-05:00"
-			groupId="@{project.groupId}"
+			groupId="com.aoindustries"
 			artifactId="@{documented.artifactId}"
 			scmUrl="@{project.scm.url}"
 		>
