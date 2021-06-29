@@ -33,7 +33,7 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 	<packaging>pom</packaging>
 
 	<properties>
-		<!-- Java 1.7 -->
+		<!-- Java 1.7 for Java EE 7 -->
 		<javase.version>1.7</javase.version>
 		<javase.release>7</javase.release>
 		<javadoc.link.javase>${javadoc.link.javase.7}</javadoc.link.javase>
