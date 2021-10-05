@@ -41,7 +41,7 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 		<javase.bootclasspath>${javase.bootclasspath.7}</javase.bootclasspath>
 		<!-- SonarQube -->
 		<sonar.projectKey>${project.groupId}:${project.artifactId}</sonar.projectKey>
-		<sonar.organization>aoindustries</sonar.organization>
+		<sonar.organization>ao-apps</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
@@ -74,20 +74,20 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/javaee-web-api-bom.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/javaee-web-api-bom.git</developerConnection>
-		<url>https://github.com/aoindustries/javaee-web-api-bom</url>
+		<connection>scm:git:git://github.com/ao-apps/javaee-web-api-bom.git</connection>
+		<developerConnection>scm:git:git@github.com:ao-apps/javaee-web-api-bom.git</developerConnection>
+		<url>https://github.com/ao-apps/javaee-web-api-bom</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/aoindustries/javaee-web-api-bom/issues</url>
+		<url>https://github.com/ao-apps/javaee-web-api-bom/issues</url>
 	</issueManagement>
 
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/aoindustries/javaee-web-api-bom/actions</url>
+		<url>https://github.com/ao-apps/javaee-web-api-bom/actions</url>
 	</ciManagement>
 
 	<repositories>
