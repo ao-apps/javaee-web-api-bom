@@ -37,7 +37,7 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-06-17T08:42:49-05:00"
-		dateModified="2021-09-30T03:53:51-05:00"
+		dateModified="2021-10-15T20:36:28-05:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -47,17 +47,26 @@ along with javaee-web-api-bom.  If not, see <http://www.gnu.org/licenses />.
 				artifactId="@{documented.artifactId}"
 				repository="@{nexusUrl}content/repositories/snapshots/"
 				scmUrl="@{project.scm.url}"
-			>
-				<ul>
-					<li>
-						Dependencies are no longer declared with "provided" scope, since this blocked the transitive
-						dependencies.  Instead, final artifacts that are deployed should declared provided as-needed.
-						See <ao:a href="https://stackoverflow.com/a/18796321">Can Maven's provided scoping, be transitive?</ao:a>
-						for more details.
-					</li>
-				</ul>
-			</changelog:release>
+			/>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="7.0.1"
+			datePublished="2021-10-15T20:36:28-05:00"
+			groupId="@{project.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{project.scm.url}"
+		>
+			<ul>
+				<li>
+					Dependencies are no longer declared with "provided" scope, since this blocked the transitive
+					dependencies.  Instead, final artifacts that are deployed should declared provided as-needed.
+					See <ao:a href="https://stackoverflow.com/a/18796321">Can Maven's provided scoping, be transitive?</ao:a>
+					for more details.
+				</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
