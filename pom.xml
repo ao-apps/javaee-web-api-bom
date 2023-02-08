@@ -33,6 +33,7 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
   <packaging>pom</packaging>
 
   <properties>
+    <project.build.outputTimestamp>2023-02-08T21:06:04Z</project.build.outputTimestamp>
     <!-- Java 1.7 for Java EE 7 -->
     <javase.version>1.7</javase.version>
     <javase.release>7</javase.release>
