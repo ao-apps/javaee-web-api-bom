@@ -65,22 +65,22 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
       <ul>
         <li><core:link page="index.jspx">Project Home</core:link></li>
         <li><core:link page="changelog.jspx">Changelog</core:link></li>
-        <li><ao:a href="https://central.sonatype.com/search?namespace=${ao:encodeURIComponent('@{project.groupId}')}&q=a%3A${ao:encodeURIComponent('@{documented.artifactId}')}">Maven Central Repository</ao:a></li>
+        <li><ao:a href="https://central.sonatype.com/search?namespace=${ao:encodeURIComponent('@{project.groupId}')}&amp;q=a%3A${ao:encodeURIComponent('@{documented.artifactId}')}">Maven Central Repository</ao:a></li>
         <li><ao:a href="@{project.scm.url}">GitHub</ao:a></li>
       </ul>
     </section:nav>
     <section:section label="Managed Dependencies">
       <ul>
-        <li><ao:a href="https://central.sonatype.com/search?namespace=javax&q=a%3Ajavaee-web-api/7.0/jar">javax:<strong>javaee-web-api</strong>:7.0</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/search?namespace=javax.el&q=a%3Ajavax.el-api/3.0.0/jar">javax.el:<strong>javax.el-api</strong>:3.0.0</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/search?namespace=javax.servlet&q=a%3Ajavax.servlet-api/3.1.0/jar">javax.servlet:<strong>javax.servlet-api</strong>:3.1.0</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/search?namespace=javax.servlet.jsp&q=a%3Ajavax.servlet.jsp-api/2.3.3/jar">javax.servlet.jsp:<strong>javax.servlet.jsp-api</strong>:2.3.3</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/search?namespace=javax.websocket&q=a%3Ajavax.websocket-api/1.1/jar">javax.websocket:<strong>javax.websocket-api</strong>:1.1</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/search?namespace=javax.websocket&q=a%3Ajavax.websocket-client-api/1.1/jar">javax.websocket:<strong>javax.websocket-client-api</strong>:1.1</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/search?namespace=org.apache.taglibs&q=a%3Ataglibs-standard-compat/1.2.5/jar">org.apache.taglibs:<strong>taglibs-standard-compat</strong>:1.2.5</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/search?namespace=org.apache.taglibs&q=a%3Ataglibs-standard-impl/1.2.5/jar">org.apache.taglibs:<strong>taglibs-standard-impl</strong>:1.2.5</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/search?namespace=org.apache.taglibs&q=a%3Ataglibs-standard-jstlel/1.2.5/jar">org.apache.taglibs:<strong>taglibs-standard-jstlel</strong>:1.2.5</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/search?namespace=org.apache.taglibs&q=a%3Ataglibs-standard-spec/1.2.5/jar">org.apache.taglibs:<strong>taglibs-standard-spec</strong>:1.2.5</ao:a></li>
+        <li><ao:a href="https://central.sonatype.com/search?namespace=javax&amp;q=a%3Ajavaee-web-api/7.0/jar">javax:<strong>javaee-web-api</strong>:7.0</ao:a></li>
+        <li><ao:a href="https://central.sonatype.com/search?namespace=javax.el&amp;q=a%3Ajavax.el-api/3.0.0/jar">javax.el:<strong>javax.el-api</strong>:3.0.0</ao:a></li>
+        <li><ao:a href="https://central.sonatype.com/search?namespace=javax.servlet&amp;q=a%3Ajavax.servlet-api/3.1.0/jar">javax.servlet:<strong>javax.servlet-api</strong>:3.1.0</ao:a></li>
+        <li><ao:a href="https://central.sonatype.com/search?namespace=javax.servlet.jsp&amp;q=a%3Ajavax.servlet.jsp-api/2.3.3/jar">javax.servlet.jsp:<strong>javax.servlet.jsp-api</strong>:2.3.3</ao:a></li>
+        <li><ao:a href="https://central.sonatype.com/search?namespace=javax.websocket&amp;q=a%3Ajavax.websocket-api/1.1/jar">javax.websocket:<strong>javax.websocket-api</strong>:1.1</ao:a></li>
+        <li><ao:a href="https://central.sonatype.com/search?namespace=javax.websocket&amp;q=a%3Ajavax.websocket-client-api/1.1/jar">javax.websocket:<strong>javax.websocket-client-api</strong>:1.1</ao:a></li>
+        <li><ao:a href="https://central.sonatype.com/search?namespace=org.apache.taglibs&amp;q=a%3Ataglibs-standard-compat/1.2.5/jar">org.apache.taglibs:<strong>taglibs-standard-compat</strong>:1.2.5</ao:a></li>
+        <li><ao:a href="https://central.sonatype.com/search?namespace=org.apache.taglibs&amp;q=a%3Ataglibs-standard-impl/1.2.5/jar">org.apache.taglibs:<strong>taglibs-standard-impl</strong>:1.2.5</ao:a></li>
+        <li><ao:a href="https://central.sonatype.com/search?namespace=org.apache.taglibs&amp;q=a%3Ataglibs-standard-jstlel/1.2.5/jar">org.apache.taglibs:<strong>taglibs-standard-jstlel</strong>:1.2.5</ao:a></li>
+        <li><ao:a href="https://central.sonatype.com/search?namespace=org.apache.taglibs&amp;q=a%3Ataglibs-standard-spec/1.2.5/jar">org.apache.taglibs:<strong>taglibs-standard-spec</strong>:1.2.5</ao:a></li>
       </ul>
     </section:section>
   </core:page>
