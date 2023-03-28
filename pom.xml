@@ -40,10 +40,6 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
     <javadoc.link.javase>${javadoc.link.javase.7}</javadoc.link.javase>
     <!-- This must be set in your ~/.m2/settings.xml when building with JDK < 9 -->
     <javase.bootclasspath>${javase.bootclasspath.7}</javase.bootclasspath>
-    <!-- SonarQube -->
-    <sonar.projectKey>${project.groupId}:${project.artifactId}</sonar.projectKey>
-    <sonar.organization>ao-apps</sonar.organization>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
   <name>Java™ EE Web Profile BOM</name>
