@@ -20,20 +20,20 @@ Bill of Materials (BOM) for [Java™ EE Web Profile](https://www.oracle.com/java
 ## Project Links
 * [Project Home](https://oss.aoapps.com/javaee-web-api-bom/)
 * [Changelog](https://oss.aoapps.com/javaee-web-api-bom/changelog)
-* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.aoapps&q=a%3Ajavaee-web-api-bom)
+* [Maven Central Repository](https://central.sonatype.com/artifact/com.aoapps/javaee-web-api-bom)
 * [GitHub](https://github.com/ao-apps/javaee-web-api-bom)
 
 ## Managed Dependencies
-* [javax:**javaee-web-api**:7.0](https://central.sonatype.com/search?namespace=javax&q=a%3Ajavaee-web-api/7.0/jar)
-* [javax.el:**javax.el-api**:3.0.0](https://central.sonatype.com/search?namespace=javax.el&q=a%3Ajavax.el-api/3.0.0/jar)
-* [javax.servlet:**javax.servlet-api**:3.1.0](https://central.sonatype.com/search?namespace=javax.servlet&q=a%3Ajavax.servlet-api/3.1.0/jar)
-* [javax.servlet.jsp:**javax.servlet.jsp-api**:2.3.3](https://central.sonatype.com/search?namespace=javax.servlet.jsp&q=a%3Ajavax.servlet.jsp-api/2.3.3/jar)
-* [javax.websocket:**javax.websocket-api**:1.1](https://central.sonatype.com/search?namespace=javax.websocket&q=a%3Ajavax.websocket-api/1.1/jar)
-* [javax.websocket:**javax.websocket-client-api**:1.1](https://central.sonatype.com/search?namespace=javax.websocket&q=a%3Ajavax.websocket-client-api/1.1/jar)
-* [org.apache.taglibs:**taglibs-standard-compat**:1.2.5](https://central.sonatype.com/search?namespace=org.apache.taglibs&q=a%3Ataglibs-standard-compat/1.2.5/jar)
-* [org.apache.taglibs:**taglibs-standard-impl**:1.2.5](https://central.sonatype.com/search?namespace=org.apache.taglibs&q=a%3Ataglibs-standard-impl/1.2.5/jar)
-* [org.apache.taglibs:**taglibs-standard-jstlel**:1.2.5](https://central.sonatype.com/search?namespace=org.apache.taglibs&q=a%3Ataglibs-standard-jstlel/1.2.5/jar)
-* [org.apache.taglibs:**taglibs-standard-spec**:1.2.5](https://central.sonatype.com/search?namespace=org.apache.taglibs&q=a%3Ataglibs-standard-spec/1.2.5/jar)
+* [javax:**javaee-web-api**:7.0](https://central.sonatype.com/artifact/javax/javaee-web-api/7.0)
+* [javax.el:**javax.el-api**:3.0.0](https://central.sonatype.com/artifact/javax.el/javax.el-api/3.0.0)
+* [javax.servlet:**javax.servlet-api**:3.1.0](https://central.sonatype.com/artifact/javax.servlet/javax.servlet-api/3.1.0)
+* [javax.servlet.jsp:**javax.servlet.jsp-api**:2.3.3](https://central.sonatype.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api/2.3.3)
+* [javax.websocket:**javax.websocket-api**:1.1](https://central.sonatype.com/artifact/javax.websocket/javax.websocket-api/1.1)
+* [javax.websocket:**javax.websocket-client-api**:1.1](https://central.sonatype.com/artifact/javax.websocket/javax.websocket-client-api/1.1)
+* [org.apache.taglibs:**taglibs-standard-compat**:1.2.5](https://central.sonatype.com/artifact/org.apache.taglibs/taglibs-standard-compat/1.2.5)
+* [org.apache.taglibs:**taglibs-standard-impl**:1.2.5](https://central.sonatype.com/artifact/org.apache.taglibs/taglibs-standard-impl/1.2.5)
+* [org.apache.taglibs:**taglibs-standard-jstlel**:1.2.5](https://central.sonatype.com/artifact/org.apache.taglibs/taglibs-standard-jstlel/1.2.5)
+* [org.apache.taglibs:**taglibs-standard-spec**:1.2.5](https://central.sonatype.com/artifact/org.apache.taglibs/taglibs-standard-spec/1.2.5)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
