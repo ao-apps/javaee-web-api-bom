@@ -37,8 +37,6 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
     <javase.version>1.7</javase.version>
     <javase.release>7</javase.release>
     <javadoc.link.javase>${javadoc.link.javase.7}</javadoc.link.javase>
-    <!-- This must be set in your ~/.m2/settings.xml when building with JDK < 9 -->
-    <javase.bootclasspath>${javase.bootclasspath.7}</javase.bootclasspath>
   </properties>
 
   <name>Java™ EE Web Profile BOM</name>
