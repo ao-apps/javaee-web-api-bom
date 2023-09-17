@@ -33,6 +33,8 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
   <packaging>pom</packaging>
 
   <properties>
+    <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
+    <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
     <!-- Java 1.7 for Java EE 7 -->
     <javase.version>1.7</javase.version>
     <javase.release>7</javase.release>
