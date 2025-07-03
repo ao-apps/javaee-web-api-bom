@@ -20,7 +20,7 @@ Bill of Materials (BOM) for [Java™ EE Web Profile](https://www.oracle.com/java
 ## Project Links
 * [Project Home](https://oss.aoapps.com/javaee-web-api-bom/)
 * [Changelog](https://oss.aoapps.com/javaee-web-api-bom/changelog)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.aoapps/javaee-web-api-bom)
+* [Central Repository](https://central.sonatype.com/artifact/com.aoapps/javaee-web-api-bom)
 * [GitHub](https://github.com/ao-apps/javaee-web-api-bom)
 
 ## Managed Dependencies
